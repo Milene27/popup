@@ -17,3 +17,7 @@ a.selected {
  color:white;
  z-index:100;
 }
+
+body{
+  background-color: darkslategray;
+}
