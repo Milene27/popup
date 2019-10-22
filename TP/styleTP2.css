@@ -1,0 +1,84 @@
+
+body {
+	background-color:black;
+	color:white;
+	font-family:verdana;
+}
+.marge {
+	margin-top:50px;
+	margin-left:150px;
+	display:inline-block;
+	width:300px;
+	height:100px;
+}
+#bandeau {
+	margin:auto;
+	width:100%;
+	height:150px;
+	background-image:URL('./img/gaia.jpg');
+	background-position:center;
+}
+
+h1, h2 {
+	color:white;
+	display:inline-block;
+	
+}
+h1 {
+	font-family:arial black;
+	font-size:48px;
+	margin-left:40px;
+}
+h2 {
+	font-family:verdana;
+	margin-left:1000px;
+	line-height:150px;
+
+}
+#prenom {
+	color:red;
+}
+#saisiEuro {
+	width:200px;
+	display:inline-block;
+}
+#choiDev {
+	width:200px;
+}
+#boutonGo {
+	width:200px;
+	box-shadow:1px 1px white;
+	background-color:#00A7FF;
+	font-family:verdana;
+}
+#tabRecup {
+	position:relative;
+	top:-430px;
+	left:500px;
+	border-style:outset;
+	background-color:#00A7FF;
+	width:500px;
+	height:400px;
+	border-radius:3px;
+	color: black;
+	padding:10px;
+}
+
+#resInstant {
+	width:200px;
+	height:50px;
+	color:black;
+	/*box-shadow:1px 1px white;*/
+	border-radius:3px;
+	border-style:outset;
+	background-color:#00A7FF;
+	font-family:verdana;
+	text-align:center;
+	line-height:40px;
+	padding-top:10px;
+}
+
+
+
+
+
