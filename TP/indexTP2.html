@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styleTP2.css"/>
+		<title>site java</title>
+		<meta charset="UTF-8" />
+
+		
+	</head>
+	
+	<header>
+		<div id="bandeau">
+			<h1 id="prenom"><strong>Convertisseur</strong></h1>
+			<h2><oblique>Javascript</oblique></h2>
+		</div>
+	</header>
+	
+	<body>
+		<span class="marge">
+			<p><strong>Somme en Euro à convertir</strong></p><input type="number" id="saisiEuro" name="Nom" value=""/>	
+
+			<br><br><br><br>
+		
+			<label for="choixDev"><strong>Le convertir en :</strong></label>
+			<br><br>
+			
+				<select id="choixDev" name="choixDev">
+					<option value="">---Please choose an option----</option>
+					<option id="dollar" value="dollar">Dollar</option>
+					<option id="bitcoin" value="bitcoin">Bitcoin</option>
+					<option id="livreSterling" value="livreSterling">Livre Sterling</option>
+					<option id="yen" value="yen">Yen</option>
+					<option id="dinar" value="dinar">Dinar</option>
+					<option id="yuan" value="yuan">Yuan</option>
+				</select> 
+				<br><br><br>
+			<input id="boutonGo" type="button" value="Convertir"/>
+			<br><br><br>
+			
+			<strong>Le résultat de la conversion est :</strong><br><br><div id="resInstant"></div><br>
+	
+			<div id="tabRecup"><strong><br><center>----------      Historique des conversions      ----------<br></center></strong></div>
+			<br>
+		
+		</span>
+			
+		<script src="javascriptTP2.js"></script>
+		
+	</body>
+	
+</html>

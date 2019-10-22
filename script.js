@@ -2,5 +2,5 @@ $('#exampleModal').modal('show');
 
 $('#Accepter').on('click', function()
 {
-    console.log("hello!");
+    document.location.href="TP/indexTP2.html";
 });
